@@ -20,3 +20,5 @@ foreach($lister as $item){
     }
 
 }
+
+echo "\n" . "above: $countHigher" . ", below: $countBelow" . "\n";
