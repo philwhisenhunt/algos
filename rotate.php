@@ -15,5 +15,8 @@ $firstPart = array_slice($nowArray, 0, $input);
 
 //smash the two together
 $finalArray = array_merge($sliced, $firstPart);
-print_r($finalArray);
 
+
+//now convert it back into a string
+$stringAgain = implode("", $finalArray);
+echo $stringAgain . " is the new string \n";
