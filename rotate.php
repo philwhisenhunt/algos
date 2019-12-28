@@ -1,9 +1,9 @@
 <?php
 
-//take the string and the input
-
+//set the string and the input
 $theString = "MyString";
 $input = 2;
+
 //split it into an array
 $nowArray = str_split($theString);
 
@@ -16,7 +16,8 @@ $firstPart = array_slice($nowArray, 0, $input);
 //smash the two together
 $finalArray = array_merge($sliced, $firstPart);
 
-
 //now convert it back into a string
 $stringAgain = implode("", $finalArray);
+
+//and print it out
 echo $stringAgain . " is the new string \n";
