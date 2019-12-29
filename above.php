@@ -1,7 +1,7 @@
 <?php
 
 //set the array and the input
-$lister = [1, 5, 2, 1, 10,];
+$lister = [1, 5, 2, 1, 10];
 $input = 6;
 
 //initialize the variables and set them to zero
