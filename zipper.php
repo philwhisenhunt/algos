@@ -11,5 +11,10 @@ $newArray = [];
 
 //might need a for loop instead,
 for($i = 0; $i< count($array1); $i++){
-    echo "$i";
+    //echo $array1[$i];
+    $newArray[] = $array1[$i];
+    $newArray[] = $array2[$i];
+
 }
+
+print_r($newArray);
