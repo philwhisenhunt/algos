@@ -11,10 +11,15 @@ $newArray = [];
 
 //might need a for loop instead,
 for($i = 0; $i< count($array1); $i++){
-    //echo $array1[$i];
+
     $newArray[] = $array1[$i];
     $newArray[] = $array2[$i];
 
 }
 
 print_r($newArray);
+
+//but what if one array is longer than the other?
+if(count($array1 > $array2)){
+    
+}
