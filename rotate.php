@@ -7,7 +7,11 @@ $input = 2;
 //split it into an array
 $nowArray = str_split($theString);
 $negativeInput = $input * -1;
-echo $negativeInput;
+
+$sliced = array_slice($nowArray, $negativeInput);
+
+$remainder = array_slice($nowArray, 0, $negativeInput);
+print_r($remainder);
 die();
 
 
