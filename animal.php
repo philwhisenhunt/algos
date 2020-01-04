@@ -15,7 +15,7 @@ abstract class Animal {
 class Dog extends Animal{
     //implement speak function and return "woof"
     public function speak() : string {
-        return "Woof! I'm a dog";
+        return "woof";
     }
 }
 
