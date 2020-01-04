@@ -9,12 +9,16 @@
 //function/method "speak" on the instantiated instance and print the result.
 
 abstract class Animal {
-    abstract function speak();
+    abstract public function speak() : string;
 }
 
 class Dog extends Animal{
     //implement speak function and return "woof"
+    public function speak() : string {
+        return "Woof! I'm a dog";
+    }
 }
 
 $chewy = new Dog();
 echo $chewy->speak();
+echo "\n";
