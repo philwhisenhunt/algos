@@ -11,7 +11,6 @@ abstract class Animal {
 //"Animal". Implement the "speak" function and have it return the string "woof".
 
 class Dog extends Animal{
-    //implement speak function and return "woof"
     public function speak() : string {
         return "woof";
     }
