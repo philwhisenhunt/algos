@@ -17,3 +17,6 @@ class Dog extends Animal{
 
 //3) Get an instantiated instance of the class "Dog". Call the
 //function/method "speak" on the instantiated instance and print the result.
+$ruffy = new Dog;
+echo $ruffy->speak();
+echo "\n";
